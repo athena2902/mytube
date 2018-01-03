@@ -8,6 +8,24 @@
 
 import Foundation
 
+class TubeAPIClient {
+    let downloader = JSONDownloader()
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

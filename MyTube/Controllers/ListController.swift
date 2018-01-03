@@ -10,8 +10,17 @@ import UIKit
 
 class ListController: UITableViewController {
 
+    @IBOutlet weak var searchBar: UISearchBar!
+    
+    let searchController = UISearchController(searchResultsController: nil)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        // Looks for single or multiple taps
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UITableViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -92,4 +101,11 @@ class ListController: UITableViewController {
     }
     */
 
+}
+
+extension UITableViewController {
+    @objc
+    func dismissKeyboard() {
+        view.endEditing(true)
+    }
 }

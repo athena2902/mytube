@@ -50,6 +50,9 @@
                             <outlet property="delegate" destination="EmE-RN-tdT" id="vGz-eQ-NSv"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="searchBar" destination="yXH-fi-dMk" id="AVa-Vn-uz7"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e8S-1h-ayh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

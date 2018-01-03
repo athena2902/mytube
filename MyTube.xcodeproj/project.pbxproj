@@ -16,6 +16,8 @@
 		EE847E361FFBC72B00142F5B /* JSONDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE847E351FFBC72B00142F5B /* JSONDownloader.swift */; };
 		EE847E381FFBC75000142F5B /* TubeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE847E371FFBC75000142F5B /* TubeError.swift */; };
 		EE847E3A1FFBC77200142F5B /* TubeAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE847E391FFBC77200142F5B /* TubeAPIClient.swift */; };
+		EEA5A3081FFD2B9500223875 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA5A3071FFD2B9500223875 /* Video.swift */; };
+		EEA5A30A1FFD2D0A00223875 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA5A3091FFD2D0A00223875 /* Thumbnail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		EE847E351FFBC72B00142F5B /* JSONDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDownloader.swift; sourceTree = "<group>"; };
 		EE847E371FFBC75000142F5B /* TubeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeError.swift; sourceTree = "<group>"; };
 		EE847E391FFBC77200142F5B /* TubeAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TubeAPIClient.swift; sourceTree = "<group>"; };
+		EEA5A3071FFD2B9500223875 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		EEA5A3091FFD2D0A00223875 /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		EE847E2D1FFBC46700142F5B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EEA5A3071FFD2B9500223875 /* Video.swift */,
+				EEA5A3091FFD2D0A00223875 /* Thumbnail.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,6 +207,8 @@
 				EE847E381FFBC75000142F5B /* TubeError.swift in Sources */,
 				EE847E3A1FFBC77200142F5B /* TubeAPIClient.swift in Sources */,
 				EE847E1A1FFBC2A000142F5B /* AppDelegate.swift in Sources */,
+				EEA5A3081FFD2B9500223875 /* Video.swift in Sources */,
+				EEA5A30A1FFD2D0A00223875 /* Thumbnail.swift in Sources */,
 				EE847E2C1FFBC33B00142F5B /* ListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
